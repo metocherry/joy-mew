@@ -19,7 +19,7 @@
     "url": "git+https://github.com/metocherry/joy-mew.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "publish": "yarn npm publish --access=public"
   },
   "bugs": {
     "url": "https://github.com/metocherry/joy-mew/issues"
