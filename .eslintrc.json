@@ -1,49 +1,19 @@
 {
   "root": true,
-  "parser": "@typescript-eslint/parser",
-  "parserOptions": {
-    "project": "./tsconfig.json"
-  },
   "env": {
     "es2020": true,
     "node": true
   },
-  "plugins": [
-    "@typescript-eslint"
-  ],
   "extends": [
-    "eslint:recommended",
-    "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended"
+    "eslint:recommended"
   ],
   "rules": {
     "quotes": ["error", "single"],
     "quote-props": ["error", "consistent-as-needed"],
-    // requires object key/value spacing like a: 'b'
     "key-spacing": ["error"],
-    // requires a newline at the end of the file
     "eol-last": ["error", "always"],
-
-    // Typescript
-    "semi": "off",
-    "@typescript-eslint/semi": ["error", "never"],
-
-    "comma-dangle": "off",
-    "@typescript-eslint/comma-dangle": ["error", "always-multiline"],
-
-    "object-curly-spacing": "off",
-    "@typescript-eslint/object-curly-spacing": ["error", "always"],
-
-    "@typescript-eslint/member-delimiter-style": ["error", {
-      "multiline": {
-        "delimiter": "none",
-        "requireLast": false
-      },
-      "singleline": {
-        "delimiter": "comma",
-        "requireLast": false
-      }
-    }],
-    "@typescript-eslint/explicit-module-boundary-types": "off"
+    "semi": ["error", "never"],
+    "comma-dangle": ["error", "always-multiline"],
+    "object-curly-spacing": ["error", "always"]
   }
 }
