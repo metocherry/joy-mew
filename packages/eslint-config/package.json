@@ -1,0 +1,33 @@
+{
+  "name": "@metocherry/eslint-config",
+  "version": "0.0.1",
+  "description": "for clean code",
+  "keywords": [
+    "javascript",
+    "lint",
+    "eslint"
+  ],
+  "author": "jinseok <metocherry@gmail.com>",
+  "homepage": "https://github.com/metocherry/joy-mew#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metocherry/joy-mew.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/metocherry/joy-mew/issues"
+  }
+}
