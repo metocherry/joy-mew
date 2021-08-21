@@ -4,5 +4,14 @@
   "private": true,
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "scripts": {
+    "lint": "eslint packages"
+  },
+  "devDependencies": {
+    "@metocherry/eslint-config-joy": "^0.0.3",
+    "eslint": "^7.32.0",
+    "eslint-import-resolver-node": "^0.3.6",
+    "eslint-plugin-import": "^2.24.1"
+  }
 }

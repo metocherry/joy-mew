@@ -67,17 +67,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metocherry/eslint-config@workspace:packages/eslint-config":
-  version: 0.0.0-use.local
-  resolution: "@metocherry/eslint-config@workspace:packages/eslint-config"
+"@metocherry/eslint-config-joy@npm:^0.0.3":
+  version: 0.0.3
+  resolution: "@metocherry/eslint-config-joy@npm:0.0.3"
   dependencies:
     confusing-browser-globals: ^1.0.10
-    eslint: ^7.32.0
-    eslint-plugin-import: ^2.24.1
   peerDependencies:
     eslint: ^7.32.0
-  languageName: unknown
-  linkType: soft
+    eslint-plugin-import: ^2.24.1
+  checksum: e26ec90fd53319d6ea45fbbae0ee15267932a45d3b52513d6ea2a4fd2b790802920c64ce4836a3d518fe14e909a91b46497892e7d355f4b4180986f150ea9e3e
+  languageName: node
+  linkType: hard
 
 "acorn-jsx@npm:^5.3.1":
   version: 5.3.2
@@ -992,6 +992,11 @@ __metadata:
 "joy-mew@workspace:.":
   version: 0.0.0-use.local
   resolution: "joy-mew@workspace:."
+  dependencies:
+    "@metocherry/eslint-config-joy": ^0.0.3
+    eslint: ^7.32.0
+    eslint-import-resolver-node: ^0.3.6
+    eslint-plugin-import: ^2.24.1
   languageName: unknown
   linkType: soft
 

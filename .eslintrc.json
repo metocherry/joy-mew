@@ -5,15 +5,6 @@
     "node": true
   },
   "extends": [
-    "eslint:recommended"
-  ],
-  "rules": {
-    "quotes": ["error", "single"],
-    "quote-props": ["error", "consistent-as-needed"],
-    "key-spacing": ["error"],
-    "eol-last": ["error", "always"],
-    "semi": ["error", "never"],
-    "comma-dangle": ["error", "always-multiline"],
-    "object-curly-spacing": ["error", "always"]
-  }
+    "@metocherry/eslint-config-joy"
+  ]
 }
