@@ -1,0 +1,19 @@
+{
+  "name": "joy-mew",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "preinstall": "lerna link",
+    "bootstrap": "lerna bootstrap",
+    "lerna": "lerna"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
