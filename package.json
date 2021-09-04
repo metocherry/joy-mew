@@ -1,17 +1,23 @@
 {
   "name": "joy-mew",
-  "packageManager": "yarn@3.0.1",
+  "packageManager": "yarn@3.0.2",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
-    "lint": "eslint packages"
+    "ui:ad": "yarn workspace @metocherry/ui",
+    "ui:remove": "yarn workspace @metocherry/ui",
+    "ui:lint": "yarn workspace @metocherry/ui lint"
   },
   "devDependencies": {
-    "@metocherry/eslint-config-joy": "^0.0.3",
+    "@metocherry/eslint-config-joy": "^0.0.7",
+    "@typescript-eslint/eslint-plugin": "^4.30.0",
+    "@typescript-eslint/parser": "^4.30.0",
     "eslint": "^7.32.0",
     "eslint-import-resolver-node": "^0.3.6",
-    "eslint-plugin-import": "^2.24.1"
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-react": "^7.25.1",
+    "typescript": "^4.4.2"
   }
 }

@@ -1,0 +1,3 @@
+const Status = {
+  danger: 'color',
+};
